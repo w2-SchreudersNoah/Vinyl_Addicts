@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html><head>
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+	<title>Color palette by Paletton.com</title>
+	<meta name="generator" content="Paletton.com">
+
+<style type="text/css">
+
+/* Palette color codes */
+/* Feel free to copy&paste color codes to your application */
+
+/* Pink */
+.Pprimary-1 { background-color: #FCAAC8 }
+.Pprimary-2 { background-color: #F977A7 }
+.Pprimary-0 { background-color: #F64E8C }
+.Pprimary-3 { background-color: #F22973 }
+.Pprimary-4 { background-color: #EB0057 }
+
+/* blue */
+.Bprimary-1 { background-color: #707C85 }
+.Bprimary-2 { background-color: #52606A }
+.Bprimary-0 { background-color: #3A4750 }
+.Bprimary-3 { background-color: #212C34 }
+.Bprimary-4 { background-color: #152531 }
+
+
+/* yellow */
+.Yprimary-1 { background-color: #FFE36B }
+.Yprimary-2 { background-color: #FEDA42 }
+.Yprimary-0 { background-color: #F6C90E }
+.Yprimary-3 { background-color: #C19D02 }
+.Yprimary-4 { background-color: #987B00 }
+
+/* black */
+.BLprimary-1 { background-color: #7F7E7E }
+.BLprimary-2 { background-color: #464646 }
+.BLprimary-0 { background-color: #000000 }
+.BLprimary-3 { background-color: #000000 }
+.BLprimary-4 { background-color: #030101 }
+
+
+/* white */
+.Wprimary-1 { background-color: #FFFFFF }
+.Wprimary-2 { background-color: #FFFFFF }
+.Wprimary-0 { background-color: #FFFFFF }
+.Wprimary-3 { background-color: #CECECE }
+.Wprimary-4 { background-color: #A2A0A0 }
+
+
+
+body {
+	margin:0; padding: 2em;
+	background: #fff;
+	color: #000;
+	font: 12px/1.33 "Segoe UI", "Helvetica Neue", Helvetica, sans-serif;
+	text-align:left;
+	}
+h1 {
+	margin: 0.5em 0;
+	font-size: 200%;
+	}
+p {
+	margin: 0.5em 0;
+	}
+
+.color-table {
+	margin: 2em 2em 5em;
+	border-collapse:collapse;
+	border:none;
+	border-spacing:0;
+	font-size:100%;
+	}
+.color-table th {
+	padding: 0 1em 0 0;
+	text-align: right;
+	vertical-align: middle;
+	font-size: 100%;
+	font-weight: normal;
+	border: none;
+	}
+.color-table td.sample {
+	width:6em; height:6em;
+	padding: 10px;
+	text-align:center;
+	vertical-align:middle;
+	font-size:90%;
+	border: 1px solid white;
+	white-space:nowrap;
+	}
+.color-table td.sample-0 {
+	width:18em;
+	}
+.color-table.small td.sample {
+	width:3em; height:3em;
+	padding:0;
+	border:none;
+	}
+.color-table.small td.sample-0 {
+	width:9em;
+	}
+.color-table .white { margin-bottom:0.2em; color:white }
+.color-table .black { margin-top:0.2em; color:black }
+
+hr {
+	margin: 2em 0 1em 0;
+	border:none;
+	border-bottom:1px solid silver;
+	}
+#footer {
+	padding:1em;
+	text-align:center;
+	font-size:80%;
+	}
+
+</style>
+
+</head>
+<body>
+
+<h1>Color Palette by Paletton.com</h1>
+<h2>De middelste kleueren komen uit het logo, de kleuren die er naast staan zijn kleuren die in de kleuren palette zitten.</h2>
+
+<hr>
+
+<p>Palette URL: <a href="http://paletton.com/#uid=15l0G0klRShauYkgMVpqBO9wCI2">http://paletton.com/#uid=15l0G0klRShauYkgMVpqBO9wCI2</a></p>
+
+
+<table class="color-table">
+	<tbody><tr>
+		<th>Primary color:</th>
+		<td class="sample sample-1 Pprimary-1">
+			<div class="white">#FCAAC8</div>
+			<div class="black">#FCAAC8</div>
+		</td>
+		<td class="sample sample-2 Pprimary-2">
+			<div class="white">#F977A7</div>
+			<div class="black">#F977A7</div>
+		</td>
+		<td class="sample sample-0 Pprimary-0">
+			<div class="white">#F64E8C</div>
+			<div class="black">#F64E8C</div>
+		</td>
+		<td class="sample sample-3 Pprimary-3">
+			<div class="white">#F22973</div>
+			<div class="black">#F22973</div>
+		</td>
+		<td class="sample sample-4 Pprimary-4">
+			<div class="white">#EB0057</div>
+			<div class="black">#EB0057</div>
+		</td>
+	</tr>
+</tbody></table>
+
+<table class="color-table small">
+	<tbody><tr>
+		<th>Primary color:</th>
+		<td class="sample sample-1 Pprimary-1"></td>
+		<td class="sample sample-2 Pprimary-2"></td>
+		<td class="sample sample-0 Pprimary-0"></td>
+		<td class="sample sample-3 Pprimary-3"></td>
+		<td class="sample sample-4 Pprimary-4"></td>
+	</tr>
+</tbody></table>
+
+<hr>
+
+<p>Palette URL: <a href="http://paletton.com/#uid=13w0G0k9ofE5sp+7LkFcAa8jz9x">http://paletton.com/#uid=13w0G0k9ofE5sp+7LkFcAa8jz9x</a></p>
+
+<table class="color-table">
+	<tbody><tr>
+		<th>Primary color:</th>
+		<td class="sample sample-1 Bprimary-1">
+			<div class="white">#707C85</div>
+			<div class="black">#707C85</div>
+		</td>
+		<td class="sample sample-2 Bprimary-2">
+			<div class="white">#52606A</div>
+			<div class="black">#52606A</div>
+		</td>
+		<td class="sample sample-0 Bprimary-0">
+			<div class="white">#3A4750</div>
+			<div class="black">#3A4750</div>
+		</td>
+		<td class="sample sample-3 Bprimary-3">
+			<div class="white">#212C34</div>
+			<div class="black">#212C34</div>
+		</td>
+		<td class="sample sample-4 Bprimary-4">
+			<div class="white">#152531</div>
+			<div class="black">#152531</div>
+		</td>
+	</tr>
+</tbody></table>
+
+<table class="color-table small">
+	<tbody><tr>
+		<th>Primary color:</th>
+		<td class="sample sample-1 Bprimary-1"></td>
+		<td class="sample sample-2 Bprimary-2"></td>
+		<td class="sample sample-0 Bprimary-0"></td>
+		<td class="sample sample-3 Bprimary-3"></td>
+		<td class="sample sample-4 Bprimary-4"></td>
+	</tr>
+</tbody></table>
+
+<hr>
+
+<p>Palette URL: <a href="http://paletton.com/#uid=11m0G0kubuSi-CinGvUvCoiAZj8">http://paletton.com/#uid=11m0G0kubuSi-CinGvUvCoiAZj8</a></p>
+
+<table class="color-table">
+	<tbody><tr>
+		<th>Primary color:</th>
+		<td class="sample sample-1 Yprimary-1">
+			<div class="white">#FFE36B</div>
+			<div class="black">#FFE36B</div>
+		</td>
+		<td class="sample sample-2 Yprimary-2">
+			<div class="white">#FEDA42</div>
+			<div class="black">#FEDA42</div>
+		</td>
+		<td class="sample sample-0 Yprimary-0">
+			<div class="white">#F6C90E</div>
+			<div class="black">#F6C90E</div>
+		</td>
+		<td class="sample sample-3 Yprimary-3">
+			<div class="white">#C19D02</div>
+			<div class="black">#C19D02</div>
+		</td>
+		<td class="sample sample-4 Yprimary-4">
+			<div class="white">#987B00</div>
+			<div class="black">#987B00</div>
+		</td>
+	</tr>
+</tbody></table>
+
+<table class="color-table small">
+	<tbody><tr>
+		<th>Primary color:</th>
+		<td class="sample sample-1 Yprimary-1"></td>
+		<td class="sample sample-2 Yprimary-2"></td>
+		<td class="sample sample-0 Yprimary-0"></td>
+		<td class="sample sample-3 Yprimary-3"></td>
+		<td class="sample sample-4 Yprimary-4"></td>
+	</tr>
+</tbody></table>
+
+<hr>
+
+
+<p>Palette URL: <a href="http://paletton.com/#uid=1000G0k00000nfW028N8N02fW0n">http://paletton.com/#uid=1000G0k00000nfW028N8N02fW0n</a></p>
+
+<table class="color-table">
+	<tbody><tr>
+		<th>Primary color:</th>
+		<td class="sample sample-1 BLprimary-1">
+			<div class="white">#7F7E7E</div>
+			<div class="black">#7F7E7E</div>
+		</td>
+		<td class="sample sample-2 BLprimary-2">
+			<div class="white">#464646</div>
+			<div class="black">#464646</div>
+		</td>
+		<td class="sample sample-0 BLprimary-0">
+			<div class="white">#000000</div>
+			<div class="black">#000000</div>
+		</td>
+		<td class="sample sample-3 BLprimary-3">
+			<div class="white">#000000</div>
+			<div class="black">#000000</div>
+		</td>
+		<td class="sample sample-4 BLprimary-4">
+			<div class="white">#030101</div>
+			<div class="black">#030101</div>
+		</td>
+	</tr>
+</tbody></table>
+
+<table class="color-table small">
+	<tbody><tr>
+		<th>Primary color:</th>
+		<td class="sample sample-1 BLprimary-1"></td>
+		<td class="sample sample-2 BLprimary-2"></td>
+		<td class="sample sample-0 BLprimary-0"></td>
+		<td class="sample sample-3 BLprimary-3"></td>
+		<td class="sample sample-4 BLprimary-4"></td>
+	</tr>
+</tbody></table>
+
+<hr>
+
+
+<p>Palette URL: <a href="http://paletton.com/#uid=1000G0k00w000++00SJ00pV0hkj">http://paletton.com/#uid=1000G0k00w000++00SJ00pV0hkj</a></p>
+
+<table class="color-table">
+	<tbody><tr>
+		<th>Primary color:</th>
+		<td class="sample sample-1 Wprimary-1">
+			<div class="white">#FFFFFF</div>
+			<div class="black">#FFFFFF</div>
+		</td>
+		<td class="sample sample-2 Wprimary-2">
+			<div class="white">#FFFFFF</div>
+			<div class="black">#FFFFFF</div>
+		</td>
+		<td class="sample sample-0 Wprimary-0">
+			<div class="white">#FFFFFF</div>
+			<div class="black">#FFFFFF</div>
+		</td>
+		<td class="sample sample-3 Wprimary-3">
+			<div class="white">#CECECE</div>
+			<div class="black">#CECECE</div>
+		</td>
+		<td class="sample sample-4 Wprimary-4">
+			<div class="white">#A2A0A0</div>
+			<div class="black">#A2A0A0</div>
+		</td>
+	</tr>
+</tbody></table>
+
+<table class="color-table small">
+	<tbody><tr>
+		<th>Primary color:</th>
+		<td class="sample sample-1 Wprimary-1"></td>
+		<td class="sample sample-2 Wprimary-2"></td>
+		<td class="sample sample-0 Wprimary-0"></td>
+		<td class="sample sample-3 Wprimary-3"></td>
+		<td class="sample sample-4 Wprimary-4"></td>
+	</tr>
+</tbody></table>
+
+
+</body></html>
