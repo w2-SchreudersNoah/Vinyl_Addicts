@@ -1,0 +1,105 @@
+html, body, footer p{
+    padding: 0px;
+    margin: 0px;
+}
+html {
+    background-image: url("../images/wallpaper.png");
+    -webkit-background-size: 200px; background-size: 200px;
+    background-repeat: repeat;
+
+    font-family: Arial;
+
+    scroll-behavior: smooth;
+
+    min-width: 350px;
+}
+header img{
+    height: calc(100% - 4px);
+    border: solid 2px black;
+
+    margin: 0px 10px;
+}
+header{
+    width: 100%;
+    height: 100px;
+
+    background-color: #F6C90E; /*Yellow header*/
+    /*background-color: #F64E8B; !*Pink header*!*/
+
+}
+div.banner{
+    position: relative;
+    top: 0px;
+    min-height: 250px;
+
+    overflow: hidden;
+}
+body {
+
+}
+main h1{
+
+    padding: 0px;
+    margin: 0px;
+}
+main h2{
+    margin-top:20px ;
+}
+main{
+    background-color: #BEBEBE;
+
+    width: calc(100% - 200px);
+    min-height: 100px;
+
+    position: relative;
+    -webkit-transform: translate(-50%);
+    -moz-transform: translate(-50%);
+    -ms-transform: translate(-50%);
+    -o-transform: translate(-50%);
+    transform: translate(-50%);
+
+    margin: 50px 50%;
+}
+.filter a:hover{
+    font-size: 20px;
+    font-weight: bold;
+
+    text-decoration: underline;
+
+    cursor: pointer;
+
+
+}
+.filter a, .filter p{
+    padding: 0px 2px;
+    margin: 0px;
+
+    position: relative;
+    float: left;
+
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+    -khtml-user-select: none; /* Konqueror HTML */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+    user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome and Opera */
+}
+.filter{
+    position: absolute;
+    right: 0px;
+    top: 0px;
+
+    margin: 10px;
+
+}
+footer{
+    background-color: #3A4750;
+    text-align: center;
+    color: #F0F0F0;
+
+    bottom: 0px;
+
+    width: calc(100% - 10px);
+    padding: 2px 5px;
+}

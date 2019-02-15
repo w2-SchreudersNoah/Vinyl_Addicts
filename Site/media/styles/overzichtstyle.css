@@ -1,0 +1,67 @@
+
+div#Overzicht video{
+    position: absolute;
+    top: 0px;
+    transform: translate(0, -40%);
+}
+div#Overzicht{
+    height: 50vh;
+    background-image: url("../images/banners/banner_2.jpg");
+    background-repeat: no-repeat;
+    background-size: 100vw;
+    background-attachment: fixed;
+    background-position: bottom center;
+}
+
+main section{
+}
+section div {
+    position: relative;
+    float: left;
+}
+.item{
+    position: relative;
+    float: left;
+
+    padding: 5px;
+    margin: 10px calc(10% / 3);
+    border: solid 1px black;
+
+    width: calc((100% / 3) - (32px * 3));
+    min-width: 130px;
+}
+.item:nth-child(odd){
+    background-color: #F6C90E;
+}
+.item:nth-child(even){
+    background-color: #F64E8B;
+}
+.item img{
+    width: 100%;
+}
+.item table{
+    border-collapse: collapse;
+    width: 100%;
+}
+.item p{
+    padding: 0px;
+    margin: 0px;
+
+    position: relative;
+}
+.album_title{
+    font-size: 30px
+}
+.album_artist{
+    font-size: 15px;
+}
+.album_year{
+    font-size: 20px;
+}
+.album_rarity{
+    position: absolute;
+    right: 5px;
+    bottom: 0px;
+
+    font-size: 20px;
+}
