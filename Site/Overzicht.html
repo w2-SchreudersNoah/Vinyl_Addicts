@@ -14,25 +14,31 @@
         <meta name="author" content="Jordy van Venrooij">
 
         <link rel="shortcut icon" href="media/images/favicon.ico" type="image/x-icon"> <!-- Fav ICON -->
-        <link rel="stylesheet" href="media/styles/globalstyles(jordy).css">
-        <link rel="stylesheet" href="media/styles/overzichtstyle(jordy).css">
+        <link rel="stylesheet" href="media/styles/globalstyles.css">
+        <link rel="stylesheet" href="media/styles/overzichtstyle.css">
 
         <script src="media/scripts/scripts.js"></script>
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js" defer></script>
+        <script src="media/scripts/scrollscript.js" defer></script>
+        <script src="media/scripts/bannerrandomiserscript.js" defer></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     </head>
     <body>
+        <div id="scroll_up" hidden></div> <!-- Scroll up arrow -->
+
         <header>
             <a href="#"><img src="media/images/vinyl_logo.png" alt="Vinyl Addicts Logo"></a>
             <nav>
 
             </nav>
         </header>
+
         <div class="banner" id="Overzicht">
-            <video width="100%" autoplay muted loop>
+            <video id="bannervid" width="100%" autoplay muted loop>
                 <source src="media/videos/banners/banner_1.mp4">
                 Your browser does not support the video tag.
             </video>
         </div>
+
         <main>
             <h1>Overzicht</h1>
             <section class="filter"><a href="#A-List">A</a><p> - </p><a href="#B-List">B</a><p> - </p><a href="#C-List">C</a><p> - </p><a href="#D-List">D</a><p> - </p><a href="#E-List">E</a><p> - </p><a href="#F-List">F</a><p> - </p><a href="#G-List">G</a><p> - </p><a href="#H-List">H</a><p> - </p><a href="#I-List">I</a><p> - </p><a href="#J-List">J</a><p> - </p><a href="#K-List">K</a><p> - </p><a href="#L-List">L</a><p> - </p><a href="#M-List">M</a><p> - </p><a href="#N-List">N</a><p> - </p><a href="#O-List">O</a><p> - </p><a href="#P-List">P</a><p> - </p><a href="#Q-List">Q</a><p> - </p><a href="#R-List">R</a><p> - </p><a href="#S-List">S</a><p> - </p><a href="#T-List">T</a><p> - </p><a href="#U-List">U</a><p> - </p><a href="#V-List">V</a><p> - </p><a href="#W-List">W</a><p> - </p><a href="#X-List">X</a><p> - </p><a href="#Y-List">Y</a><p> - </p><a href="#Z-List">Z</a></section>
@@ -93,7 +99,6 @@
                 </div>
                 &nbsp; <!-- There has tp be an element on the bottom of this section, else the height won't be registered -->
             </section>
-            <hr>
             <section id="B-List">
                 <h2>B</h2>
                 <div>
@@ -148,7 +153,6 @@
                 </div>
                 &nbsp; <!-- There has tp be an element on the bottom of this section, else the height won't be registered -->
             </section>
-            <hr>
             <section id="C-List">
                 <h2>C</h2>
                 <div>
@@ -179,7 +183,6 @@
                 </div>
                 &nbsp; <!-- There has tp be an element on the bottom of this section, else the height won't be registered -->
             </section>
-            <hr>
             <section id="D-List">
                 <h2>D</h2>
                 <div>
@@ -222,7 +225,6 @@
                 </div>
                 &nbsp; <!-- There has tp be an element on the bottom of this section, else the height won't be registered -->
             </section>
-            <hr>
             <section id="E-List">
                 <h2>E</h2>
                 <div>
@@ -245,7 +247,6 @@
                 </div>
                 &nbsp; <!-- There has tp be an element on the bottom of this section, else the height won't be registered -->
             </section>
-            <hr>
             <section id="F-List">
                 <h2>F</h2>
                 <div>
@@ -268,7 +269,6 @@
                 </div>
                 &nbsp; <!-- There has tp be an element on the bottom of this section, else the height won't be registered -->
             </section>
-            <hr>
             <section id="G-List">
                 <h2>G</h2>
                 <div>
@@ -291,7 +291,6 @@
                 </div>
                 &nbsp; <!-- There has tp be an element on the bottom of this section, else the height won't be registered -->
             </section>
-            <hr>
             <section id="H-List">
                 <h2>H</h2>
                 <div>
@@ -314,7 +313,6 @@
                 </div>
                 &nbsp; <!-- There has tp be an element on the bottom of this section, else the height won't be registered -->
             </section>
-            <hr>
             <section id="I-List">
                 <h2>I</h2>
                 <div>
@@ -337,7 +335,6 @@
                 </div>
                 &nbsp; <!-- There has tp be an element on the bottom of this section, else the height won't be registered -->
             </section>
-            <hr>
             <section id="J-List">
                 <h2>J</h2>
                 <div>
@@ -360,7 +357,6 @@
                 </div>
                 &nbsp; <!-- There has tp be an element on the bottom of this section, else the height won't be registered -->
             </section>
-            <hr>
             <section id="K-List">
                 <h2>K</h2>
                 <div>
@@ -383,7 +379,6 @@
                 </div>
                 &nbsp; <!-- There has tp be an element on the bottom of this section, else the height won't be registered -->
             </section>
-            <hr>
             <section id="L-List">
                 <h2>L</h2>
                 <div>
@@ -406,7 +401,6 @@
                 </div>
                 &nbsp; <!-- There has tp be an element on the bottom of this section, else the height won't be registered -->
             </section>
-            <hr>
             <section id="M-List">
                 <h2>M</h2>
                 <div>
@@ -429,7 +423,6 @@
                 </div>
                 &nbsp; <!-- There has tp be an element on the bottom of this section, else the height won't be registered -->
             </section>
-            <hr>
             <section id="N-List">
                 <h2>N</h2>
                 <div>
@@ -452,7 +445,6 @@
                 </div>
                 &nbsp; <!-- There has tp be an element on the bottom of this section, else the height won't be registered -->
             </section>
-            <hr>
             <section id="O-List">
                 <h2>O</h2>
                 <div>
@@ -475,7 +467,6 @@
                 </div>
                 &nbsp; <!-- There has tp be an element on the bottom of this section, else the height won't be registered -->
             </section>
-            <hr>
             <section id="P-List">
                 <h2>P</h2>
                 <div>
@@ -498,7 +489,6 @@
                 </div>
                 &nbsp; <!-- There has tp be an element on the bottom of this section, else the height won't be registered -->
             </section>
-            <hr>
             <section id="Q-List">
                 <h2>Q</h2>
                 <div>
@@ -521,7 +511,6 @@
                 </div>
                 &nbsp; <!-- There has tp be an element on the bottom of this section, else the height won't be registered -->
             </section>
-            <hr>
             <section id="R-List">
                 <h2>R</h2>
                 <div>
@@ -544,7 +533,6 @@
                 </div>
                 &nbsp; <!-- There has tp be an element on the bottom of this section, else the height won't be registered -->
             </section>
-            <hr>
             <section id="S-List">
                 <h2>S</h2>
                 <div>
@@ -567,7 +555,6 @@
                 </div>
                 &nbsp; <!-- There has tp be an element on the bottom of this section, else the height won't be registered -->
             </section>
-            <hr>
             <section id="T-List">
                 <h2>T</h2>
                 <div>
@@ -590,7 +577,6 @@
                 </div>
                 &nbsp; <!-- There has tp be an element on the bottom of this section, else the height won't be registered -->
             </section>
-            <hr>
             <section id="U-List">
                 <h2>U</h2>
                 <div>
@@ -613,7 +599,6 @@
                 </div>
                 &nbsp; <!-- There has tp be an element on the bottom of this section, else the height won't be registered -->
             </section>
-            <hr>
             <section id="V-List">
                 <h2>V</h2>
                 <div>
@@ -636,7 +621,6 @@
                 </div>
                 &nbsp; <!-- There has tp be an element on the bottom of this section, else the height won't be registered -->
             </section>
-            <hr>
             <section id="W-List">
                 <h2>W</h2>
                 <div>
@@ -659,7 +643,6 @@
                 </div>
                 &nbsp; <!-- There has tp be an element on the bottom of this section, else the height won't be registered -->
             </section>
-            <hr>
             <section id="X-List">
                 <h2>X</h2>
                 <div>
@@ -682,7 +665,6 @@
                 </div>
                 &nbsp; <!-- There has tp be an element on the bottom of this section, else the height won't be registered -->
             </section>
-            <hr>
             <section id="Y-List">
                 <h2>Y</h2>
                 <div>
@@ -705,7 +687,6 @@
                 </div>
                 &nbsp; <!-- There has tp be an element on the bottom of this section, else the height won't be registered -->
             </section>
-            <hr>
             <section id="Z-List">
                 <h2>Z</h2>
                 <div>

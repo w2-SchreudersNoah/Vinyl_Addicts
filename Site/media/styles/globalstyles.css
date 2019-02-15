@@ -37,14 +37,6 @@ div.banner{
 body {
 
 }
-main h1{
-
-    padding: 0px;
-    margin: 0px;
-}
-main h2{
-    margin-top:20px ;
-}
 main{
     background-color: #BEBEBE;
 
@@ -61,39 +53,6 @@ main{
 
     margin: 50px 50%;
 }
-.filter a:hover{
-    font-size: 20px;
-    font-weight: bold;
-
-    text-decoration: underline;
-
-    cursor: pointer;
-
-
-}
-.filter a, .filter p{
-    padding: 0px 2px;
-    margin: 0px;
-
-    position: relative;
-    float: left;
-
-    -webkit-touch-callout: none; /* iOS Safari */
-    -webkit-user-select: none; /* Safari */
-    -khtml-user-select: none; /* Konqueror HTML */
-    -moz-user-select: none; /* Firefox */
-    -ms-user-select: none; /* Internet Explorer/Edge */
-    user-select: none; /* Non-prefixed version, currently
-                                  supported by Chrome and Opera */
-}
-.filter{
-    position: absolute;
-    right: 0px;
-    top: 0px;
-
-    margin: 10px;
-
-}
 footer{
     background-color: #3A4750;
     text-align: center;
@@ -104,3 +63,17 @@ footer{
     width: calc(100% - 10px);
     padding: 2px 5px;
 }
+
+#scroll_up{
+    position: fixed;
+    bottom: 4%;
+    right: 1%;
+
+    width: 50px;
+    height: 50px;
+
+    background-color: RGBA(255, 255, 255, 0.5);
+
+    cursor: pointer;
+}
+

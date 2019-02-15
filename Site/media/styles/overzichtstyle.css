@@ -11,13 +11,72 @@ div#Overzicht{
     background-size: 100vw;
     background-attachment: fixed;
     background-position: bottom center;
+    background-position-Y: 40%;
+}
+.filter a:hover{
+    font-size: 20px;
+    font-weight: bold;
+
+    text-decoration: underline;
+
+    cursor: pointer;
+
+
+}
+.filter a, .filter p{
+    padding: 2px 2px;
+    margin: 0px;
+
+    position: relative;
+    float: left;
+
+    background-color: #BEBEBE;
+
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+    -khtml-user-select: none; /* Konqueror HTML */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+    user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome and Opera */
+}
+.filter{
+    position: sticky;
+    z-index: 2;
+    top: 5px;
+    float: right;
 }
 
+main h1{
+    padding: 0px;
+    margin: 0px;
+}
+
+body main section:nth-child(odd) h2{
+    background-color: #F64E8B;
+}
+body main section:nth-child(even) h2{
+    background-color: #F6C90E;
+}
+main h2{
+    margin: 0px;
+    margin-left: -4px;
+
+    font-size: 30px;
+
+    position: sticky;
+
+    z-index: 1;
+
+    top: 0px;
+}
 main section{
 }
 section div {
     position: relative;
     float: left;
+
+    padding-left: 15px;
 
     width:100%;
 }
