@@ -50,6 +50,7 @@ main{
 
     width: calc(100% - 200px);
     min-height: 100px;
+    padding: 10px 5px;
 
     position: relative;
     -webkit-transform: translate(-50%);

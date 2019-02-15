@@ -18,6 +18,8 @@ main section{
 section div {
     position: relative;
     float: left;
+
+    width:100%;
 }
 .item{
     position: relative;
