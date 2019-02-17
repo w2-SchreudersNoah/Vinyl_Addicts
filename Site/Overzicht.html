@@ -19,11 +19,17 @@
 
         <script src="media/scripts/scripts.js"></script>
         <script src="media/scripts/scrollscript.js" defer></script>
-        <script src="media/scripts/bannerrandomiserscript.js" defer></script>
+        <script src="media/scripts/bannerscript.js" defer></script>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     </head>
     <body>
-        <div id="scroll_up" hidden></div> <!-- Scroll up arrow -->
+        <img id="scroll_up" alt="Scroll UP" hidden></img> <!-- Scroll up arrow -->
+
+
+        <div class="banner" id="Overzicht">
+            <img id="logo" src="media/images/vinyl_logo.png" width="50vw" alt="Vnyl Addicts Logo">
+            <img id="scroll_down" src="" alt="Scroll Down">
+        </div>
 
         <header>
             <a href="#"><img src="media/images/vinyl_logo.png" alt="Vinyl Addicts Logo"></a>
@@ -32,20 +38,16 @@
             </nav>
         </header>
 
-        <div class="banner" id="Overzicht">
-            <video id="bannervid" width="100%" autoplay muted loop>
-                <source src="media/videos/banners/banner_1.mp4">
-                Your browser does not support the video tag.
-            </video>
-        </div>
 
         <main>
+
             <h1>Overzicht</h1>
             <section class="filter"><a href="#A-List">A</a><p> - </p><a href="#B-List">B</a><p> - </p><a href="#C-List">C</a><p> - </p><a href="#D-List">D</a><p> - </p><a href="#E-List">E</a><p> - </p><a href="#F-List">F</a><p> - </p><a href="#G-List">G</a><p> - </p><a href="#H-List">H</a><p> - </p><a href="#I-List">I</a><p> - </p><a href="#J-List">J</a><p> - </p><a href="#K-List">K</a><p> - </p><a href="#L-List">L</a><p> - </p><a href="#M-List">M</a><p> - </p><a href="#N-List">N</a><p> - </p><a href="#O-List">O</a><p> - </p><a href="#P-List">P</a><p> - </p><a href="#Q-List">Q</a><p> - </p><a href="#R-List">R</a><p> - </p><a href="#S-List">S</a><p> - </p><a href="#T-List">T</a><p> - </p><a href="#U-List">U</a><p> - </p><a href="#V-List">V</a><p> - </p><a href="#W-List">W</a><p> - </p><a href="#X-List">X</a><p> - </p><a href="#Y-List">Y</a><p> - </p><a href="#Z-List">Z</a></section>
             <br>
             <br>
             <hr>
-            <section id="A-List">
+            <section>
+                <div class="scrolltoitem" id="A-List"></div>
                 <h2>A</h2>
                 <div>
                     <div class="item">
@@ -99,7 +101,8 @@
                 </div>
                 &nbsp; <!-- There has tp be an element on the bottom of this section, else the height won't be registered -->
             </section>
-            <section id="B-List">
+            <section>
+                <div class="scrolltoitem" id="B-List"></div>
                 <h2>B</h2>
                 <div>
                     <div class="item">
@@ -153,7 +156,8 @@
                 </div>
                 &nbsp; <!-- There has tp be an element on the bottom of this section, else the height won't be registered -->
             </section>
-            <section id="C-List">
+            <section>
+                <div class="scrolltoitem" id="C-List"></div>
                 <h2>C</h2>
                 <div>
                     <div class="item">
@@ -183,7 +187,8 @@
                 </div>
                 &nbsp; <!-- There has tp be an element on the bottom of this section, else the height won't be registered -->
             </section>
-            <section id="D-List">
+            <section>
+                <div class="scrolltoitem" id="D-List"></div>
                 <h2>D</h2>
                 <div>
                     <div class="item">
@@ -225,7 +230,8 @@
                 </div>
                 &nbsp; <!-- There has tp be an element on the bottom of this section, else the height won't be registered -->
             </section>
-            <section id="E-List">
+            <section>
+                <div class="scrolltoitem" id="E-List"></div>
                 <h2>E</h2>
                 <div>
                     <!-- zet hier de shop items in -->
@@ -247,7 +253,8 @@
                 </div>
                 &nbsp; <!-- There has tp be an element on the bottom of this section, else the height won't be registered -->
             </section>
-            <section id="F-List">
+            <section>
+                <div class="scrolltoitem" id="F-List"></div>
                 <h2>F</h2>
                 <div>
                     <!-- zet hier de shop items in -->
@@ -269,7 +276,8 @@
                 </div>
                 &nbsp; <!-- There has tp be an element on the bottom of this section, else the height won't be registered -->
             </section>
-            <section id="G-List">
+            <section>
+                <div class="scrolltoitem" id="G-List"></div>
                 <h2>G</h2>
                 <div>
                     <!-- zet hier de shop items in -->
@@ -291,7 +299,8 @@
                 </div>
                 &nbsp; <!-- There has tp be an element on the bottom of this section, else the height won't be registered -->
             </section>
-            <section id="H-List">
+            <section>
+                <div class="scrolltoitem" id="H-List"></div>
                 <h2>H</h2>
                 <div>
                     <!-- zet hier de shop items in -->
@@ -313,7 +322,8 @@
                 </div>
                 &nbsp; <!-- There has tp be an element on the bottom of this section, else the height won't be registered -->
             </section>
-            <section id="I-List">
+            <section>
+                <div class="scrolltoitem" id="I-List"></div>
                 <h2>I</h2>
                 <div>
                     <!-- zet hier de shop items in -->
@@ -335,7 +345,8 @@
                 </div>
                 &nbsp; <!-- There has tp be an element on the bottom of this section, else the height won't be registered -->
             </section>
-            <section id="J-List">
+            <section>
+                <div class="scrolltoitem" id="J-List"></div>
                 <h2>J</h2>
                 <div>
                     <!-- zet hier de shop items in -->
@@ -357,7 +368,8 @@
                 </div>
                 &nbsp; <!-- There has tp be an element on the bottom of this section, else the height won't be registered -->
             </section>
-            <section id="K-List">
+            <section>
+                <div class="scrolltoitem" id="K-List"></div>
                 <h2>K</h2>
                 <div>
                     <!-- zet hier de shop items in -->
@@ -379,7 +391,8 @@
                 </div>
                 &nbsp; <!-- There has tp be an element on the bottom of this section, else the height won't be registered -->
             </section>
-            <section id="L-List">
+            <section>
+                <div class="scrolltoitem" id="L-List"></div>
                 <h2>L</h2>
                 <div>
                     <!-- zet hier de shop items in -->
@@ -401,7 +414,8 @@
                 </div>
                 &nbsp; <!-- There has tp be an element on the bottom of this section, else the height won't be registered -->
             </section>
-            <section id="M-List">
+            <section>
+                <div class="scrolltoitem" id="M-List"></div>
                 <h2>M</h2>
                 <div>
                     <!-- zet hier de shop items in -->
@@ -423,7 +437,8 @@
                 </div>
                 &nbsp; <!-- There has tp be an element on the bottom of this section, else the height won't be registered -->
             </section>
-            <section id="N-List">
+            <section>
+                <div class="scrolltoitem" id="N-List"></div>
                 <h2>N</h2>
                 <div>
                     <!-- zet hier de shop items in -->
@@ -445,7 +460,8 @@
                 </div>
                 &nbsp; <!-- There has tp be an element on the bottom of this section, else the height won't be registered -->
             </section>
-            <section id="O-List">
+            <section>
+                <div class="scrolltoitem" id="O-List"></div>
                 <h2>O</h2>
                 <div>
                     <!-- zet hier de shop items in -->
@@ -467,7 +483,8 @@
                 </div>
                 &nbsp; <!-- There has tp be an element on the bottom of this section, else the height won't be registered -->
             </section>
-            <section id="P-List">
+            <section>
+                <div class="scrolltoitem" id="P-List"></div>
                 <h2>P</h2>
                 <div>
                     <!-- zet hier de shop items in -->
@@ -489,7 +506,8 @@
                 </div>
                 &nbsp; <!-- There has tp be an element on the bottom of this section, else the height won't be registered -->
             </section>
-            <section id="Q-List">
+            <section>
+                <div class="scrolltoitem" id="Q-List"></div>
                 <h2>Q</h2>
                 <div>
                     <!-- zet hier de shop items in -->
@@ -511,7 +529,8 @@
                 </div>
                 &nbsp; <!-- There has tp be an element on the bottom of this section, else the height won't be registered -->
             </section>
-            <section id="R-List">
+            <section>
+                <div class="scrolltoitem" id="R-List"></div>
                 <h2>R</h2>
                 <div>
                     <!-- zet hier de shop items in -->
@@ -533,7 +552,8 @@
                 </div>
                 &nbsp; <!-- There has tp be an element on the bottom of this section, else the height won't be registered -->
             </section>
-            <section id="S-List">
+            <section>
+                <div class="scrolltoitem" id="S-List"></div>
                 <h2>S</h2>
                 <div>
                     <!-- zet hier de shop items in -->
@@ -555,7 +575,8 @@
                 </div>
                 &nbsp; <!-- There has tp be an element on the bottom of this section, else the height won't be registered -->
             </section>
-            <section id="T-List">
+            <section>
+                <div class="scrolltoitem" id="T-List"></div>
                 <h2>T</h2>
                 <div>
                     <!-- zet hier de shop items in -->
@@ -577,7 +598,8 @@
                 </div>
                 &nbsp; <!-- There has tp be an element on the bottom of this section, else the height won't be registered -->
             </section>
-            <section id="U-List">
+            <section>
+                <div class="scrolltoitem" id="U-List"></div>
                 <h2>U</h2>
                 <div>
                     <!-- zet hier de shop items in -->
@@ -599,7 +621,8 @@
                 </div>
                 &nbsp; <!-- There has tp be an element on the bottom of this section, else the height won't be registered -->
             </section>
-            <section id="V-List">
+            <section>
+                <div class="scrolltoitem" id="V-List"></div>
                 <h2>V</h2>
                 <div>
                     <!-- zet hier de shop items in -->
@@ -621,7 +644,8 @@
                 </div>
                 &nbsp; <!-- There has tp be an element on the bottom of this section, else the height won't be registered -->
             </section>
-            <section id="W-List">
+            <section>
+                <div class="scrolltoitem" id="W-List"></div>
                 <h2>W</h2>
                 <div>
                     <!-- zet hier de shop items in -->
@@ -643,7 +667,8 @@
                 </div>
                 &nbsp; <!-- There has tp be an element on the bottom of this section, else the height won't be registered -->
             </section>
-            <section id="X-List">
+            <section>
+                <div class="scrolltoitem" id="X-List"></div>
                 <h2>X</h2>
                 <div>
                     <!-- zet hier de shop items in -->
@@ -665,7 +690,8 @@
                 </div>
                 &nbsp; <!-- There has tp be an element on the bottom of this section, else the height won't be registered -->
             </section>
-            <section id="Y-List">
+            <section>
+                <div class="scrolltoitem" id="Y-List"></div>
                 <h2>Y</h2>
                 <div>
                     <!-- zet hier de shop items in -->
@@ -687,7 +713,8 @@
                 </div>
                 &nbsp; <!-- There has tp be an element on the bottom of this section, else the height won't be registered -->
             </section>
-            <section id="Z-List">
+            <section>
+                <div class="scrolltoitem" id="Z-List"></div>
                 <h2>Z</h2>
                 <div>
                     <!-- zet hier de shop items in -->

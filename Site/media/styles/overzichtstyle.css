@@ -1,17 +1,47 @@
-
-div#Overzicht video{
+html{
+    background-attachment: fixed;
+}
+div#Overzicht img#scroll_down{
     position: absolute;
-    top: 0px;
-    transform: translate(0, -40%);
+    left: 50%;
+    bottom: 10px;
+    -webkit-transform: translate(0px, -50%);
+    -moz-transform: translate(-50%);
+    -ms-transform: translate(-50%);
+    -o-transform: translate(-50%);
+    transform: translate(-50%);
+    
+    font-size: 30px;
+    color: #000;
+    text-align: center;
+    background-color: RGBA(255, 255, 255, 0.75);
+
+    width: 75px;
+    height: 75px;
+}
+div#Overzicht img#logo{
+    position: absolute;
+    top: 50%;
+    left: 50vw;
+    transform: translate(-50%, -50%);
+
+    -webkit-box-shadow: 10px 10px 25px 5px #000;
+    -moz-box-shadow: 10px 10px 25px 5px #000;
+    box-shadow: 10px 10px 25px 5px #000;
+
+    width: 25vw;
 }
 div#Overzicht{
-    height: 50vh;
-    background-image: url("../images/banners/banner_2.jpg");
-    background-repeat: no-repeat;
-    background-size: 100vw;
+    height: 100vh;
+    margin-top: 0px;
     background-attachment: fixed;
-    background-position: bottom center;
     background-position-Y: 40%;
+}
+
+
+header{
+    position: sticky;
+    top: 0px;
 }
 .filter a:hover{
     font-size: 20px;
@@ -43,7 +73,7 @@ div#Overzicht{
 .filter{
     position: sticky;
     z-index: 2;
-    top: 5px;
+    top: 105px;
     float: right;
 }
 
@@ -68,7 +98,7 @@ main h2{
 
     z-index: 1;
 
-    top: 0px;
+    top: 100px;
 }
 main section{
 }
@@ -79,6 +109,11 @@ section div {
     padding-left: 15px;
 
     width:100%;
+}
+.scrolltoitem{
+    position: relative;
+    top: -100px;
+    visibility: hidden;
 }
 .item{
     position: relative;
@@ -125,4 +160,36 @@ section div {
     bottom: 0px;
 
     font-size: 20px;
+}
+#controls div{
+    width: 50px;
+    height: 50px;
+
+    cursor: pointer;
+
+    position: relative;
+    float: left;
+}
+#controls{
+    position: absolute;
+    bottom: 0px;
+    left: 50%;
+    -webkit-transform: translate(-50%);
+    -moz-transform: translate(-50%);
+    -ms-transform: translate(-50%);
+    -o-transform: translate(-50%);
+    transform: translate(-50%);
+
+    width: auto;
+
+
+    background-color: RGBA(255, 255, 255, 0.5);
+}
+#pause_bttn{
+
+    background-image: url("");
+}
+#change_bttn{
+
+    background-image: url("");
 }

@@ -13,6 +13,10 @@ html {
 
     min-width: 350px;
 }
+body{
+    min-height: 100vh;
+}
+
 header img{
     height: calc(100% - 4px);
     border: solid 2px black;
@@ -20,19 +24,39 @@ header img{
     margin: 0px 10px;
 }
 header{
+    position: fixed;
+    top: 0px;
+
+    z-index: 3;
+
     width: 100%;
     height: 100px;
 
-    background-color: #F6C90E; /*Yellow header*/
+    /*background-color: #F6C90E; !*Yellow header*!*/
     /*background-color: #F64E8B; !*Pink header*!*/
+    background-color: #3A4750; /*Blue/Gray header*/
 
 }
 div.banner{
     position: relative;
-    top: 0px;
+
+    background-image: url("../images/banners/banner_2.jpg");
+    background-repeat: no-repeat;
+    background-size: 100vw;
+    background-position: bottom center;
+    background-position-Y: 60%;
+
+    margin-top: 100px;
+
     min-height: 250px;
 
     overflow: hidden;
+}
+
+@media screen and (orientation:portrait) {
+    div.banner{
+        background-size: auto 100vh;
+    }
 }
 body {
 
@@ -41,7 +65,7 @@ main{
     background-color: #BEBEBE;
 
     width: calc(100% - 200px);
-    min-height: 100px;
+    min-height: calc((100vh - 250px) + 20px); /* (100vh - banner height) + padding top & bottom */
     padding: 10px 5px;
 
     position: relative;
