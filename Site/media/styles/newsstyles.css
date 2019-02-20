@@ -61,15 +61,3 @@ margin-bottom: 0px;
 
 
 
-html {
-    background-image: url("wallpaper%20loopable.png");
-    -webkit-background-size: 200px; background-size: 200px;
-    background-repeat: repeat;
-    font-family: Arial;
-    scroll-behavior: smooth;
-    min-width: 350px;
-    overflow-x: hidden;
-}
-
-
-
