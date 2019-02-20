@@ -7,7 +7,7 @@ arrowUp.onclick = function() {
     // after scrollTo, there will be a "scroll" event, so the arrow will hide automatically
 };
 arrowDown.onclick = function() {
-    window.scrollTo(pageXOffset, 100);
+    window.scrollTo(pageXOffset, document.documentElement.clientHeight);
     // after scrollTo, there will be a "scroll" event, so the arrow will hide automatically
 };
 

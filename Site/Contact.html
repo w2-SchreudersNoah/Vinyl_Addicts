@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Vinyl Addicts</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="Vinyl Addicts home pagina">
+    <meta name="keywords" content="Vinyl Addicts, Vinyl, Vinyl Zeldzaamheid, ">
+    <meta name="author" content="Jordy van Venrooij">
+
+    <link rel="shortcut icon" href="media/images/favicon.ico" type="image/x-icon"> <!-- Fav ICON -->
+    <link rel="stylesheet" href="media/styles/globalstyles.css">
+    <link rel="stylesheet" href="media/styles/contactstyle.css">
+
+    <script src="media/scripts/scripts.js"></script>
+    <script src="media/scripts/scrollscript.js" defer></script>
+    <script src="media/scripts/bannerscript.js" defer></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+<body>
+
+    <header>
+        <a href="#"><img src="media/images/vinyl_logo.png" alt="Vinyl Addicts Logo"></a>
+        <nav>
+
+        </nav>
+    </header>
+    <div class="banner">
+    </div>
+
+    <main>
+        <h1>Contact</h1>
+        <p>Wilt u contact met ons opnemen doe dat dan via onze contact formulier hier onder.</p>
+        <hr>
+        <form action="mailto:someone@example.com?subject=Conact pagina website" method="post" enctype="text/plain">
+            <table>
+                <tr>
+                    <td><label for="name">*Uw voor en achternaam: </label></td><td colspan="2"><input type="text" name="Naam" id="name" required></td>
+                </tr>
+                <tr>
+                    <td><label for="email">*Uw email adres: </label></td><td colspan="2"><input type="text" name="Email" id="email" required></td>
+                </tr>
+                <tr>
+                    <td><label for="tel">Uw telefoon of mobiele nummer: </label></td><td colspan="2"><input type="text" name="Telefoon" id="tel"></td>
+                </tr>
+                <tr>
+                    <td><label for="adress">Uw woon-adres: </label></td><td colspan="2"><input type="text" name="Adres" id="adress"></td>
+                </tr>
+                <tr>
+                    <td><label for="subject">*Onderwerp</label></td><td><input type="text" id="subject" name="subject" placeholder="" required></td>
+                </tr>
+                <tr>
+                    <td><label for="bericht" >*Opmerkingen, Vraagen en/of overige zaken: </label></td><td colspan="2"><textarea rows="10" cols="50" name="Bericht" id="bericht" required></textarea></td>
+                </tr>
+                <tr>
+                    <td>&nbsp;</td><td><input type="submit" value="Verzenden"></td><td><span style="color: red; font-size: 10px;">Alle velden met een * zijn verplicht.</span></td>
+                </tr>
+            </table>
+        </form>
+    </main>
+    <footer>
+        <p>Vinyl Addicts &copy; 2019</p>
+    </footer>
+</body>
+</html>
