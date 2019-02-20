@@ -58,14 +58,62 @@ div.banner{
         background-size: auto 100vh;
     }
 }
-body {
 
+
+
+
+
+
+
+
+
+
+
+
+nav ul li{
+    display: inline-block;
+    background-color: #f6c90e;
+    border: 1px solid #000;
+    font-size: 32px;
+    padding: 5px 20px;
 }
+
+nav ul li:hover{
+    transition: background-color 200ms ease-in;
+    background-color:  #ddb40c;
+    cursor: pointer;
+}
+
+html, body, footer p{
+    padding: 0px;
+    margin: 0px;
+}
+html {
+    background-image: url("../images/wallpaper.png");
+    -webkit-background-size: 200px; background-size: 200px;
+    background-repeat: repeat;
+    font-family: Arial;
+    scroll-behavior: smooth;
+    min-width: 350px;
+}
+header img{
+    height: calc(100% - 4px);
+    border: solid 2px black;
+
+    margin: 0px 10px;
+}
+div.banner{
+    position: relative;
+    top: 0px;
+    min-height: 250px;
+    overflow: hidden;
+}
+
 main{
     background-color: #BEBEBE;
 
     width: calc(100% - 200px);
-    min-height: calc((100vh - 250px) + 20px); /* (100vh - banner height) + padding top & bottom */
+    min-height: 100px;
     padding: 10px 5px;
 
     position: relative;
@@ -88,16 +136,20 @@ footer{
     padding: 2px 5px;
 }
 
+
 #scroll_up{
-    position: fixed;
-    bottom: 4%;
-    right: 1%;
-
-    width: 50px;
-    height: 50px;
-
-    background-color: RGBA(255, 255, 255, 0.5);
-
-    cursor: pointer;
+    background-color: rgba(255,255,255,0.75);
+    border-radius: 50%;
+    padding: 5px;
+    text-align: center;
 }
-
+#scroll_up::before{
+    content: "\f35b";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 600;
+    font-size: 40px;
+    color: black;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}

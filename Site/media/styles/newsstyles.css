@@ -1,0 +1,75 @@
+*{
+    font-family: Arial;
+}
+.news-list{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around
+}
+.news-item{
+    width: 31%;
+    background-color: white;
+    margin-bottom: 50px
+}
+.news-item:nth-child(even){
+    background-color: #f64e8b;
+}
+.news-item:nth-child(odd){
+    background-color: #f6c90e;
+}
+.news-item img{
+    display: block;
+    margin: auto;
+    padding-top: 10px;
+    max-width: 375px;
+    height: auto;
+    width: 99%;
+}
+.news-item p, .news-item h2{
+    padding-left: 10px;
+}
+.news-item h2{
+margin-bottom: 0px;
+}
+.news-item p{
+    margin-top: 5px;
+}
+#newsTitle{
+    display: inline-block;
+    margin-top: 0;
+}
+.searchbar{
+    display: inline-block;
+    float: right;
+    position: relative
+}
+.searchbar::after{
+    content: "\f002";
+    font-weight: 600;
+    font-family: "Font Awesome 5 Free";
+    display: inline-block;
+    position: absolute;
+    font-size: 20px;
+    left: 182px;
+    top: 5px
+}
+#searchNews{
+    width: 200px;
+    height: 25px;
+}
+
+
+
+html {
+    background-image: url("wallpaper%20loopable.png");
+    -webkit-background-size: 200px; background-size: 200px;
+    background-repeat: repeat;
+    font-family: Arial;
+    scroll-behavior: smooth;
+    min-width: 350px;
+    overflow-x: hidden;
+}
+
+
+
