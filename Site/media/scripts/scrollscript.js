@@ -1,8 +1,13 @@
 
 const arrowUp = document.getElementById("scroll_up");
+const arrowDown = document.getElementById("scroll_down");
 
 arrowUp.onclick = function() {
     window.scrollTo(pageXOffset, 0);
+    // after scrollTo, there will be a "scroll" event, so the arrow will hide automatically
+};
+arrowDown.onclick = function() {
+    window.scrollTo(pageXOffset, 100);
     // after scrollTo, there will be a "scroll" event, so the arrow will hide automatically
 };
 
@@ -23,7 +28,7 @@ const G      = $('');
 
 
 window.addEventListener('scroll', function() {
-    arrowUp.hidden = (pageYOffset < ((document.documentElement.clientHeight / 3) * 2));
+    arrowUp.hidden = (pageYOffset < ((document.documentElement.clientHeight)));
 
     // get current scroll position
     if (pageYOffset > A_list.offset().top && pageYOffset < B_list.offset().top) {
