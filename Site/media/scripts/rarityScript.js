@@ -48,7 +48,8 @@ $(document).ready(function(){
             waarde = "Zeer zeldzaam";
         }
        
-    
+        $("#rarityText").html(waarde + "<br><br>Vul <a href='#sellContact'>hier</a> het formulier in.");
+        $("#sellForm").css("display", "block");
         return false;
     });
  });

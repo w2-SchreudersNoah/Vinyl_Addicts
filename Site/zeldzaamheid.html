@@ -12,7 +12,6 @@
         <meta name="description" content="Vinyl Addicts home pagina">
         <meta name="keywords" content="Vinyl Addicts, Vinyl, Vinyl Zeldzaamheid, ">
         <meta name="author" content="Noah Schreuders">
-
         
         <link rel="stylesheet" href="media/styles/globalstyles.css">
         <link rel="stylesheet" href="media/styles/raritystyles.css">
@@ -32,18 +31,50 @@
         </header>
         <div class="banner"></div>
         <main>
-            <form id="checkRarity">
-                <input type="text" name="artist" placeholder="Artiest" required><br>
-                <input type="text" name="year" pattern="[^[0-9]*$]" placeholder="Jaartal" required><br>
-                <label>Collectors editie:</label><input type="checkbox" name="collectorsEdition"><br>
-                <input type="submit">
-            </form>
-            <div id="rarity">
-                <h2>
-                    Zeldzaamheid:<br>
-                </h2>
-                <p>Vul het formulier in.</p>
+            <div id="container">
+                <form id="checkRarity">
+                    <input type="text" name="artist" placeholder="Artiest" required><br>
+                    <input type="text" name="year" pattern="^[0-9]*$" placeholder="Jaartal" required><br>
+                    <label>Collectors editie:</label><input type="checkbox" name="collectorsEdition"><br>
+                    <input type="submit">
+                </form>
+                <div id="rarity">
+                    <h2>
+                        Zeldzaamheid:<br>
+                    </h2>
+                    <p id="rarityText">Vul hiernaast het formulier in.</p>
+                </div>
             </div>
+            <div class="spacer"></div>
+            <div id="sellForm">
+            <p>Interesse in het verkopen van een lp? Vul dan het contact formulier in!</p>
+        <hr>
+        <form action="mailto:someone@example.com?subject=Conact pagina website" method="post" enctype="text/plain" id="sellContact">
+            <table>
+                <tr>
+                    <td><label for="name">*Uw voor en achternaam: </label></td><td colspan="2"><input type="text" name="Naam" id="name" required></td>
+                </tr>
+                <tr>
+                    <td><label for="email">*Uw email adres: </label></td><td colspan="2"><input type="text" name="Email" id="email" required></td>
+                </tr>
+                <tr>
+                    <td><label for="tel">Uw telefoon of mobiele nummer: </label></td><td colspan="2"><input type="text" name="Telefoon" id="tel"></td>
+                </tr>
+                <tr>
+                    <td><label for="adress">Uw woon-adres: </label></td><td colspan="2"><input type="text" name="Adres" id="adress"></td>
+                </tr>
+                <tr>
+                    <td><label for="subject">*Onderwerp</label></td><td><input type="text" id="subject" name="subject" placeholder="" required></td>
+                </tr>
+                <tr>
+                    <td><label for="bericht" >*Opmerkingen, Vraagen en/of overige zaken: </label></td><td colspan="2"><textarea rows="10" cols="50" name="Bericht" id="bericht" required></textarea></td>
+                </tr>
+                <tr>
+                    <td>&nbsp;</td><td><input type="submit" value="Verzenden"></td><td><span style="color: red; font-size: 10px;">Alle velden met een * zijn verplicht.</span></td>
+                </tr>
+            </table>
+        </form>
+        </div>
         </main>
         <footer>
             <p>Vinyl Addicts &copy; 2019</p>

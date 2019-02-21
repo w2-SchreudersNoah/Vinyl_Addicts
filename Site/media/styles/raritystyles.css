@@ -1,3 +1,36 @@
-form{
+main p{
+    text-align: center;
+}
+#checkRarity{
     display: block;
+    float: left;
+}
+#rarity{
+    float: right;
+    text-align: center;
+}
+#rarity h2, #rarity p{
+    margin: 0;
+}
+#rarity p{
+    font-weight: 600;
+}
+#rarity p a{
+    color: black;
+}
+#container{
+    display: block;
+    width: 35%;
+    margin: 0 auto;
+}
+.spacer{
+    width: 100vw;
+    display: inline-block;
+}
+form#sellContact{
+    margin: 0 auto;
+    max-width: 50%;
+}
+#sellForm{
+    display: none;
 }
