@@ -108,7 +108,7 @@ main{
     background-color: #BEBEBE;
 
     width: calc(100% - 200px);
-    min-height: 100px;
+    min-height: Calc(100vh - 378px);
     padding: 10px 5px;
 
     position: relative;
