@@ -2,13 +2,17 @@
 const arrowUp = document.getElementById("scroll_up");
 const arrowDown = document.getElementById("scroll_down");
 
+
 arrowUp.onclick = function() {
     window.scrollTo(pageXOffset, 0);
     // after scrollTo, there will be a "scroll" event, so the arrow will hide automatically
 };
-arrowDown.onclick = function() {
-    window.scrollTo(pageXOffset, document.documentElement.clientHeight);
-    // after scrollTo, there will be a "scroll" event, so the arrow will hide automatically
+// test if scroll_down div exists
+if($("#scroll_down").length){
+    arrowDown.onclick = function() {
+        window.scrollTo(pageXOffset, document.documentElement.clientHeight);
+        // after scrollTo, there will be a "scroll" event, so the arrow will hide automatically
+    };
 };
 
 const A_list = $('#A-List');
@@ -41,5 +45,3 @@ window.addEventListener('scroll', function() {
         console.log("Current focus C");
     }
 });
-
-
