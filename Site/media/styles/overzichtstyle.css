@@ -17,7 +17,7 @@ div#Overzicht div#scroll_down{
 
     background-color: rgba(255,255,255,0.75);
     border-radius: 50%;
-    padding: 5px;
+    /*padding: 5px;*/
     text-align: center;
 }
 #scroll_down::before{
@@ -84,7 +84,7 @@ header{
 .filter{
     position: sticky;
     z-index: 2;
-    top: 105px;
+    top: 55px;
     float: right;
     max-width: calc(88%);
 }
@@ -110,7 +110,7 @@ main h2{
 
     z-index: 1;
 
-    top: 100px;
+    top: 50px;
 }
 main section{
 }
@@ -124,7 +124,7 @@ section div {
 }
 .scrolltoitem{
     position: relative;
-    top: -100px;
+    top: -50px;
     visibility: hidden;
 }
 .item{
@@ -173,30 +173,6 @@ section div {
     bottom: 0px;
 
     font-size: 20px;
-}
-#controls div{
-    width: 50px;
-    height: 50px;
-
-    cursor: pointer;
-
-    position: relative;
-    float: left;
-}
-#controls{
-    position: absolute;
-    bottom: 0px;
-    left: 50%;
-    -webkit-transform: translate(-50%);
-    -moz-transform: translate(-50%);
-    -ms-transform: translate(-50%);
-    -o-transform: translate(-50%);
-    transform: translate(-50%);
-
-    width: auto;
-
-
-    background-color: RGBA(255, 255, 255, 0.5);
 }
 #pause_bttn{
 
