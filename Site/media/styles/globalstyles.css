@@ -31,7 +31,7 @@ header{
     z-index: 3;
 
     width: 100%;
-    height: 100px;
+    height: 50px;
 
     /*background-color: #F6C90E; !*Yellow header*!*/
     /*background-color: #F64E8B; !*Pink header*!*/
@@ -47,7 +47,7 @@ div.banner{
     background-position: bottom center;
     background-position-Y: 60%;
 
-    margin-top: 100px;
+    margin-top: 50px;
 
     min-height: 250px;
 
@@ -134,15 +134,11 @@ footer{
     width: 50px;
     height: 50px;
 
-    background-color: RGBA(255, 255, 255, 0.5);
-
     cursor: pointer;
-}
 
-#scroll_up{
     background-color: rgba(255,255,255,0.75);
     border-radius: 50%;
-    padding: 5px;
+    /*padding: 5px;*/
     text-align: center;
 }
 #scroll_up::before{
@@ -157,7 +153,7 @@ footer{
 }
 
 header a{
-    height: 100%;
+    height: 150%;
 }
 header nav{
     top: calc(100% - 22px); /* 100% - (header a height + header a padding) */
