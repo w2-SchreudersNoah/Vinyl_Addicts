@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<!--
+    Auteur:         Noah Schreuders
+    Controleur:     X
+    Aanmaakdatum:   08-02-2019
+    Update:         X
+-->
+<html lang="nl">
+    <head>
+        <title>Vinyl Addicts</title>
+        <meta charset="UTF-8">
+        <meta name="description" content="Vinyl Addicts home pagina">
+        <meta name="keywords" content="Vinyl Addicts, Vinyl, Vinyl Zeldzaamheid, ">
+        <meta name="author" content="Noah Schreuders">
+
+        
+        <link rel="stylesheet" href="media/styles/globalstyles.css">
+        <link rel="stylesheet" href="media/styles/raritystyles.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+        <script src="media/scripts/rarityScript.js" defer></script>        
+        <script src="media/scripts/scrollscript.js" defer></script>
+        <script src="media/scripts/bannerscript.js" defer></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    </head>
+    <body>
+        <div id="scroll_up" hidden></div> <!-- Scroll up arrow -->
+        <header>
+            <a href="#"><img src="media/images/vinyl_logo.png" alt="Vinyl Addicts Logo"></a>
+            <nav>
+                <a href="Overzicht.html"><div>Overzicht</div></a><a href="Nieuws.html" class="current_page"><div>Nieuws</div></a><a href="Contact.html"><div>Contact</div></a>
+            </nav>
+        </header>
+        <div class="banner"></div>
+        <main>
+            <form id="checkRarity">
+                <input type="text" name="artist" placeholder="Artiest" required><br>
+                <input type="text" name="year" pattern="[^[0-9]*$]" placeholder="Jaartal" required><br>
+                <label>Collectors editie:</label><input type="checkbox" name="collectorsEdition"><br>
+                <input type="submit">
+            </form>
+            <div id="rarity">
+                <h2>
+                    Zeldzaamheid:<br>
+                </h2>
+                <p>Vul het formulier in.</p>
+            </div>
+        </main>
+        <footer>
+            <p>Vinyl Addicts &copy; 2019</p>
+        </footer>
+    </body>
+</html>
