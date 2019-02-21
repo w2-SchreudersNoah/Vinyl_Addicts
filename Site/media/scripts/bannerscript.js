@@ -14,23 +14,22 @@ function changebanner() {
     // most banner images are from 'http://www.peakpx.com' and are fair use,  License: Creative Commons CC0 (https://creativecommons.org/publicdomain/zero/1.0/)
     switch (randint) {
         case 1:
-            imgsource.css('background-image', 'url("media/images/banners/banner_1.bmp")');
+            imgsource.css('background-image', 'url("media/images/banners/banner_1.jpg")');
             break;
         case 2:
-            imgsource.css('background-image', 'url("media/images/banners/banner_2.bmp")');
+            imgsource.css('background-image', 'url("media/images/banners/banner_2.jpg")');
             break;
         case 3:
-            imgsource.css('background-image', 'url("media/images/banners/banner_3.bmp")');
+            imgsource.css('background-image', 'url("media/images/banners/banner_3.jpg")');
             break;
         case 4:
-            imgsource.css('background-image', 'url("media/images/banners/banner_4.bmp")');
+            imgsource.css('background-image', 'url("media/images/banners/banner_4.jpg")');
             break;
         case 5:
-            imgsource.css('background-image', 'url("media/images/banners/banner_5.bmp")');
+            imgsource.css('background-image', 'url("media/images/banners/banner_5.jpg")');
             break;
         case 6:
-            imgsource.css('background-image', 'url("media/images/banners/banner_6.bmp")');
-            imgsource.css('background-image', 'url("media/images/banners/banner_6.bmp")');
+            imgsource.css('background-image', 'url("media/images/banners/banner_6.jpg")');
             break;
         default:
     }
