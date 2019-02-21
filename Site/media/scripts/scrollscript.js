@@ -34,6 +34,9 @@ const G      = $('');
 window.addEventListener('scroll', function() {
     arrowUp.hidden = (pageYOffset < ((document.documentElement.clientHeight)));
 
+    if (pageYOffset > ((document.documentElement.clientHeight))){
+
+    }
 
     // get current scroll position
     if (pageYOffset > A_list.offset().top && pageYOffset < B_list.offset().top) {
