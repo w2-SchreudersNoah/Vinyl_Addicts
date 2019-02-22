@@ -39,22 +39,29 @@ $(document).ready(function(){
         
         if(rarityScore > 0 && rarityScore <= 10){
             waarde = "Geen waarde";
-            $("#geenWaarde").css("display", "block")
+            $("#geenWaarde").css("display", "block");
+            $("#submitSell").css("display", "none");
         }
         else if(rarityScore > 10 && rarityScore <= 25){
             waarde = "Gewoon";
+            $("#geenWaarde").css("display", "none");
+            $("#submitSell").css("display", "inline-block");
         }
         else if(rarityScore > 25 && rarityScore <= 35){
             waarde = "Zeldzaam";
+            $("#geenWaarde").css("display", "none");
+            $("#submitSell").css("display", "inline-block");
         }
         else{
             waarde = "Zeer zeldzaam";
+            $("#geenWaarde").css("display", "none");
+            $("#submitSell").css("display", "inline-block");
         }
        
         $("#rarityText").html(waarde + "<br><br>Vul <a href='#sellContact'>hier</a> het formulier in.");
         $("#sellForm").css("display", "block");
         $("#subject").val('Verkopen ' + formResults[0]["value"] + ' lp.');
-        $("#bericht").val('Artiest: ' + formResults[0]["value"] + '\nJaartal: ' + formResults[1]["value"] + '\nCollectors editie: ' + collEdition + '\nZeldzaamheid: ' + waarde + '\n\n');
+        $("#bericht").val('Artiest: ' + formResults[0]["value"] + '\nLeeftijd lp: ' + formResults[1]["value"] + '\nCollectors editie: ' + collEdition + '\nZeldzaamheid: ' + waarde + '\n\n');
         return false;
     });
  });

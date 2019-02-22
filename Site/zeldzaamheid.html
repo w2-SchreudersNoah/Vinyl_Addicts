@@ -38,7 +38,7 @@
             <div id="container">
                 <form id="checkRarity">
                     <input type="text" name="artist" placeholder="Artiest" required><br>
-                    <input type="text" name="year" pattern="^[0-9]*$" placeholder="Jaartal" required><br>
+                    <input type="text" name="year" pattern="^[0-9]*$" placeholder="Leeftijd lp" required><br>
                     <label>Collectors editie:</label><input type="checkbox" name="collectorsEdition"><br>
                     <input type="submit">
                 </form>
@@ -75,7 +75,7 @@
                     <td><label for="bericht" >*Opmerkingen, Vragen en/of overige zaken: </label></td><td colspan="2"><textarea rows="10" cols="50" name="Bericht" id="bericht" required></textarea></td>
                 </tr>
                 <tr>
-                    <td>&nbsp;</td><td><input type="submit" value="Verzenden"></td><td><span style="color: red; font-size: 10px;">Alle velden met een * zijn verplicht.</span></td>
+                    <td>&nbsp;</td><td><input type="submit" value="Verzenden" id="submitSell"></td><td><span style="color: red; font-size: 10px;">Alle velden met een * zijn verplicht.</span></td>
                 </tr>
             </table>
         </form>
