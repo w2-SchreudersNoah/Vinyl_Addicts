@@ -31,6 +31,10 @@
         </header>
         <div class="banner"></div>
         <main>
+            <h1 style="text-align: center;">Zeldzaamheids check</h1>
+            <p id="sellInfo">
+                Wij kopen ook oude lp's in. Interesse in het verkopen van een lp? vul hieronder de zeldzaamheids check in en zie hoe zeldzaam uw lp is.<br>Vul daarna het contact formulier in, wij reageren zo snel mogelijk met een aanbod op uw lp!<br>Let op, wij kopen geen lp's van zeldzaamheid 'Geen waarde'.
+            </p>
             <div id="container">
                 <form id="checkRarity">
                     <input type="text" name="artist" placeholder="Artiest" required><br>
@@ -48,6 +52,7 @@
             <div class="spacer"></div>
             <div id="sellForm">
             <p>Interesse in het verkopen van een lp? Vul dan het contact formulier in!</p>
+            <p id="geenWaarde" style='color: red; display: none; text-align: center; margin: 0;'>Wij kopen geen lp's die geen waarde hebben!</p>
         <hr>
         <form action="mailto:someone@example.com?subject=Conact pagina website" method="post" enctype="text/plain" id="sellContact">
             <table>
@@ -67,7 +72,7 @@
                     <td><label for="subject">*Onderwerp</label></td><td><input type="text" id="subject" name="subject" placeholder="" required></td>
                 </tr>
                 <tr>
-                    <td><label for="bericht" >*Opmerkingen, Vraagen en/of overige zaken: </label></td><td colspan="2"><textarea rows="10" cols="50" name="Bericht" id="bericht" required></textarea></td>
+                    <td><label for="bericht" >*Opmerkingen, Vragen en/of overige zaken: </label></td><td colspan="2"><textarea rows="10" cols="50" name="Bericht" id="bericht" required></textarea></td>
                 </tr>
                 <tr>
                     <td>&nbsp;</td><td><input type="submit" value="Verzenden"></td><td><span style="color: red; font-size: 10px;">Alle velden met een * zijn verplicht.</span></td>

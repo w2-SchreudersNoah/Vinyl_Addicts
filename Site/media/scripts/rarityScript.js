@@ -6,6 +6,7 @@ $(document).ready(function(){
         var collectorsEditionValue = 0;
         var rarityScore; 
         var waarde = "Geen Waarde";
+        var collEdition = 'Nee';
 
         switch(formResults[0]["value"]){
             case 'Vader Abraham':      
@@ -31,12 +32,14 @@ $(document).ready(function(){
                
         if(formResults.length === 3){
              collectorsEditionValue = 5;
+             collEdition = "Ja";
         }
         
         rarityScore = (artistValue * yearValue) + collectorsEditionValue;
         
         if(rarityScore > 0 && rarityScore <= 10){
             waarde = "Geen waarde";
+            $("#geenWaarde").css("display", "block")
         }
         else if(rarityScore > 10 && rarityScore <= 25){
             waarde = "Gewoon";
@@ -50,6 +53,8 @@ $(document).ready(function(){
        
         $("#rarityText").html(waarde + "<br><br>Vul <a href='#sellContact'>hier</a> het formulier in.");
         $("#sellForm").css("display", "block");
+        $("#subject").val('Verkopen ' + formResults[0]["value"] + ' lp.');
+        $("#bericht").val('Artiest: ' + formResults[0]["value"] + '\nJaartal: ' + formResults[1]["value"] + '\nCollectors editie: ' + collEdition + '\nZeldzaamheid: ' + waarde + '\n\n');
         return false;
     });
  });
