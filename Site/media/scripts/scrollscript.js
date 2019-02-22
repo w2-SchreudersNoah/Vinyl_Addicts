@@ -32,10 +32,12 @@ const G      = $('');
 
 
 window.addEventListener('scroll', function() {
-    arrowUp.hidden = (pageYOffset < ((document.documentElement.clientHeight)));
+    // arrowUp.hidden = (pageYOffset < ((document.documentElement.clientHeight)));
 
-    if (pageYOffset > ((document.documentElement.clientHeight))){
-
+    if (pageYOffset > ((document.documentElement.clientHeight) - 5)){
+        document.getElementById("scroll_up").style.visibility = ""
+    }else{
+        document.getElementById("scroll_up").style.visibility = "hidden"
     }
 
     // get current scroll position
