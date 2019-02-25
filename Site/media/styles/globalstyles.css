@@ -3,6 +3,7 @@ html, body, footer p{
     margin: 0px;
 }
 html {
+    min-width: 500px;
     overflow-x: hidden;
     background-image: url("../images/wallpaper.png");
     -webkit-background-size: 200px; background-size: 200px;
@@ -109,6 +110,9 @@ main{
 
     width: calc(100% - 200px);
     min-height: Calc(100vh - 378px);
+    min-width: 500px;
+    overflow-x: fragments;
+
     padding: 10px 5px;
 
     position: relative;
