@@ -1,3 +1,6 @@
+main {
+    min-width: 85%;
+}
 main p{
     text-align: center;
 }
@@ -33,4 +36,39 @@ form#sellContact{
 }
 #sellForm{
     display: none;
+}
+@media only screen and (max-width: 768px){
+    header nav{
+        margin-left: 0;
+    }
+    #rarity{
+        float: unset;
+        margin-top: 20px;
+    }
+    #checkRarity{
+        float: unset;
+        white-space: nowrap;
+    }
+    #container{
+        width: 100%;
+        text-align: center;
+    }
+    form#checkRarity input {
+        margin-top: 5px;
+    }
+
+    form#sellContact {
+        margin: 0;
+        max-width: 100%;
+        text-align: center;
+    }
+    
+    form#sellContact td {
+        width: 100%;
+        display: inline-block;
+    }
+    form#sellContact *{
+        max-width: 99%;
+        display: inline-block;
+    }
 }
