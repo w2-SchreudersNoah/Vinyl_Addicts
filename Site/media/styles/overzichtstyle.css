@@ -36,9 +36,9 @@ div#Overzicht img#logo{
     left: 50vw;
     transform: translate(-50%, -50%);
 
-    -webkit-box-shadow: 10px 10px 25px 5px #000;
-    -moz-box-shadow: 10px 10px 25px 5px #000;
-    box-shadow: 10px 10px 25px 5px #000;
+    -webkit-box-shadow: 0px 0px 40px 20px white;
+    -moz-box-shadow: 0px 0px 40px 20px white;
+    box-shadow: 0px 0px 40px 20px white;
 
     width: 25vw;
 }
@@ -49,12 +49,14 @@ div#Overzicht{
     background-position-Y: 40%;
 }
 
-
+header nav {
+    margin-left: 195px;
+}
 a#branding{
     position: sticky;
     top: 0px;
 
-    margin: 0px 10px;
+    margin: 0px;
 
     margin-top: -29px;
 
@@ -95,6 +97,7 @@ header{
     position: relative;
     float: left;
 
+    color: black;
     background-color: #BEBEBE;
 
     -webkit-touch-callout: none; /* iOS Safari */
@@ -106,9 +109,14 @@ header{
                                   supported by Chrome and Opera */
 }
 .filter{
+    height: 21px;
+    background-color: #bebebe;
+    border: 1px solid black;
+    padding: 4px;
+    margin-right: 5px;
     position: sticky;
     z-index: 2;
-    top: 55px;
+    top: 51px;
     float: right;
     max-width: calc(88%);
 }
