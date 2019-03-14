@@ -29,6 +29,7 @@ main p{
 .spacer{
     width: 100vw;
     display: inline-block;
+    max-width: 100%;
 }
 form#sellContact{
     margin: 0 auto;
@@ -70,5 +71,14 @@ form#sellContact{
     form#sellContact *{
         max-width: 99%;
         display: inline-block;
+    }
+}
+
+@media only screen and (max-width: 1024px){
+    form#sellContact tr {
+        width: 100%;
+    }
+    #container{
+        width: 50%;
     }
 }
