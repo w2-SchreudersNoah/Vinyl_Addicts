@@ -1,3 +1,43 @@
+/* ========================================================================================================= */
+
+
+@media only screen and (max-width: 900px)  {
+    header nav{
+        font-size: 10px;
+    }
+}
+
+@media only screen and (max-width: 750px)  {
+    header nav{
+        margin-left: 100px !important;
+        width: calc(100% - 80px) !important;
+    }
+    div#Overzicht img#logo{
+        width: 50vw!important;
+    }
+}
+
+@media only screen and (max-width: 680px)  {
+    main{
+        margin: 340px;
+    }
+}
+
+@media only screen and (max-width: 450px)  {
+    header nav{
+
+    }
+}
+
+@media screen and (orientation:portrait) {
+    div.banner{
+        background-size: auto 100vh !important;
+    }
+}
+@media screen and (orientation:landscape) {
+
+}
+/* ========================================================================================================= */
 html, body, footer p{
     padding: 0px;
     margin: 0px;
@@ -22,8 +62,8 @@ a#branding{
     position: sticky;
     top: 0px;
 
-    margin: 0px 10px;
     margin-top: -29px;
+    margin: 0px 10px;
 
     padding-top: 75px;
 
@@ -34,8 +74,6 @@ a#branding{
 a#branding img{
     height: calc(75px - 4px);
     border: solid 2px black;
-
-    margin: 0px 10px;
 
 }
 
@@ -73,12 +111,6 @@ div.banner{
     overflow: hidden;
 }
 
-@media screen and (orientation:portrait) {
-    div.banner{
-        background-size: auto 100vh;
-    }
-}
-
 html, body, footer p{
     padding: 0px;
     margin: 0px;
@@ -94,8 +126,6 @@ html {
 header img{
     height: calc(100% - 4px);
     border: solid 2px black;
-
-    margin: 0px 10px;
 }
 div.banner{
     position: relative;
@@ -149,6 +179,8 @@ footer{
     border-radius: 50%;
     /*padding: 5px;*/
     text-align: center;
+
+    z-index: 1;
 }
 #scroll_up::before{
     content: "\f35b";
@@ -161,24 +193,46 @@ footer{
     transform: translate(-50%, -50%);
 }
 
-header a{
-    height: 150%;
-}
 header nav{
     margin-left: 100px;
-    top: calc(100% - 22px); /* 100% - (header a height + header a padding) */
+    /*top: calc(100% - 22px); !* 100% - (header a height + header a padding) *!*/
+    top: 0px;
+    width: calc(75% - 100px);
+    height: 100%;
 }
 header nav, header a{
     position: relative;
     float: left;
     color: white;
 }
+header a div{
+    position: relative;
+    top: 50%;
+    -webkit-transform: translate(0px, -50%);
+    -moz-transform: translate(0px, -50%);
+    -ms-transform: translate(0px, -50%);
+    -o-transform: translate(0px, -50%);
+    transform: translate(0px, -50%);
+}
+header a{
+    height: 150%;
+    margin: 0px 10px;
+}
+header nav a{
+    width: calc((100% / 4) - (4px * 4)); /* (100% / *aantal links*) - (*width-padding* * *aantal links*) */
+    height: calc(100% - 4px); /* (100% - *Heigth-padding from nav and a*) */
+
+    margin: 0px;
+
+    text-align: center;
+    vertical-align: middle;
+}
 header nav a:hover{
-    background-color: yellow;
+    background-color: #F9D95B;
     color: black;
 }
 header nav a:active{
-    background-color: deeppink;
+    background-color: #F8B210;
     color: black;
 }
 header nav a, header nav a:visited{
@@ -190,7 +244,9 @@ header nav a, header nav a:visited{
     padding: 2px 5px;
 }
 .current_page{
-    background-color: #987B00;
+    background-color: #F6C90E;
     color: black;
 
 }
+
+

@@ -51,12 +51,11 @@ div#Overzicht{
 
 header nav {
     margin-left: 195px;
+    width: calc(75% - 195px);
 }
 a#branding{
     position: sticky;
     top: 0px;
-
-    margin: 0px;
 
     margin-top: -29px;
 
@@ -69,8 +68,6 @@ a#branding{
 a#branding img{
     height: calc(75px - 4px);
     border: solid 2px black;
-
-    margin: 0px 10px;
 
     margin-top: -25px;
 }
@@ -156,6 +153,11 @@ section div {
     position: relative;
     top: -50px;
     visibility: hidden;
+}
+.item table{
+    min-height: 283px;
+    max-height: 283px;
+    height: 283px;
 }
 .item{
     position: relative;
