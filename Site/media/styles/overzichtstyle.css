@@ -78,7 +78,6 @@ header{
     margin-top: -54px; /* header height - (header img border top/bottom) */
 }
 .filter a:hover{
-    font-size: 20px;
     font-weight: bold;
 
     text-decoration: underline;
@@ -169,7 +168,9 @@ section div {
     border: solid 1px black;
 
     width: calc((100% / 3) - (16px * 3));
-    /*min-width: 130px;*/
+    min-width: 143px;
+    max-height: 450px;
+    min-height: 450px;
 }
 .item:nth-child(odd){
     background-color: #F6C90E;
@@ -205,4 +206,67 @@ section div {
     bottom: 0px;
 
     font-size: 20px;
+}
+
+
+/* ========================================================================================================= */
+
+
+@media only screen and (max-width: 940px)  {
+    main h2{
+        padding-top: 25px;
+    }
+    .filter{
+        height: 40px;
+        width: 70%;
+    }
+
+    .album_title{
+        font-size: 20px;
+    }
+    .album_year{
+        font-size: 15px;
+    }
+    .item{
+        width: calc((100% / 2) - (22px * 2));
+        height: 300px; min-height: 300px; max-height: 300px;
+    }
+
+}
+
+@media only screen and (max-width: 750px)  {
+}
+
+@media only screen and (max-width: 500px)  {
+    .item{
+        width: calc((100% / 1) - (50px * 1));
+        height: 500px; min-height: 500px; max-height: 500px;
+    }
+    .item img{
+        width: 100%;
+        margin-left: 50%;
+        -webkit-transform: translate(-50%);
+        -moz-transform: translate(-50%);
+        -ms-transform: translate(-50%);
+        -o-transform: translate(-50%);
+        transform: translate(-50%);
+    }
+    .item .album_title{
+        font-size: 40px;
+    }
+    .item .album_artist{
+        font-size: 35px;
+    }
+    .item .album_year{
+        font-size: 40px;
+    }
+}
+
+@media only screen and (max-width: 450px)  {
+}
+
+@media screen and (orientation:portrait) {
+}
+@media screen and (orientation:landscape) {
+
 }

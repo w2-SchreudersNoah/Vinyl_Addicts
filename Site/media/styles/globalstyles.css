@@ -1,42 +1,4 @@
-/* ========================================================================================================= */
 
-
-@media only screen and (max-width: 900px)  {
-    header nav{
-        font-size: 10px;
-    }
-}
-
-@media only screen and (max-width: 750px)  {
-    header nav{
-        margin-left: 100px !important;
-        width: calc(100% - 80px) !important;
-    }
-    div#Overzicht img#logo{
-        width: 50vw!important;
-    }
-}
-
-@media only screen and (max-width: 680px)  {
-    main{
-        margin: 340px;
-    }
-}
-
-@media only screen and (max-width: 450px)  {
-    header nav{
-
-    }
-}
-
-@media screen and (orientation:portrait) {
-    div.banner{
-        background-size: auto 100vh !important;
-    }
-}
-@media screen and (orientation:landscape) {
-
-}
 /* ========================================================================================================= */
 html, body, footer p{
     padding: 0px;
@@ -139,7 +101,7 @@ main{
 
     width: calc(100% - 200px);
     min-height: Calc(100vh - 378px);
-    min-width: 500px;
+    min-width: 570px;
     overflow-x: fragments;
 
     padding: 10px 5px;
@@ -249,4 +211,48 @@ header nav a, header nav a:visited{
 
 }
 
+/* ========================================================================================================= */
 
+
+@media only screen and (max-width: 900px)  {
+    header nav{
+        font-size: 10px;
+    }
+}
+
+@media only screen and (max-width: 750px)  {
+    header nav{
+        margin-left: 100px !important;
+        width: calc(100% - 80px) !important;
+    }
+    div#Overzicht img#logo{
+        width: 50vw!important;
+    }
+}
+
+@media only screen and (max-width: 680px)  {
+}
+
+@media only screen and (max-width: 610px)  {
+     main{
+         width: 100%; min-width: 100%; max-width: 100%;
+         margin: 0px;
+         -webkit-transform: translate(0px,0px);
+         -moz-transform: translate(0px,0px);
+         -ms-transform: translate(0px,0px);
+         -o-transform: translate(0px,0px);
+         transform: translate(0px,0px);
+    }
+    .filter{
+
+    }
+}
+
+@media screen and (orientation:portrait) {
+    div.banner{
+        background-size: auto 100vh !important;
+    }
+}
+@media screen and (orientation:landscape) {
+
+}
