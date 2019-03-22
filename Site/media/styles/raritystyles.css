@@ -1,8 +1,15 @@
+body{
+    min-height: unset;
+}
 main {
     min-width: 85%;
+    min-height: unset;
 }
 main p{
     text-align: center;
+}
+footer{
+    position: fixed;
 }
 #checkRarity{
     display: block;
