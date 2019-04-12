@@ -2,6 +2,14 @@
 // deze code genereerd een random unmber om een van de verschillende banners te laten zien.
 
 
+window.onload = function(){
+    background_resolution()
+};
+window.onresize = function() {
+    background_resolution();
+};
+
+
 const imgsource = $('.banner');
 
 
@@ -33,4 +41,40 @@ function changebanner() {
             break;
         default:
     }
+
+}
+
+function background_resolution(){
+
+    console.log("function background_resolution started");
+
+    var imageSrc = document
+        .getElementById('Overzicht')
+        .style
+        .backgroundImage
+        .replace(/url\((['"])?(.*?)\1\)/gi, '$2')
+        .split(',')[0];
+
+// I just broke it up on newlines for readability
+
+    var image = new Image();
+    image.src = imageSrc;
+
+    var Iwidth  = image.width,
+        Iheight = image.height;
+    Wwidth  = window.innerWidth;
+    Wheight = window.innerHeight;
+
+    const bannerstyle = $('.banner');
+
+    if (Wheight > Iheight){
+        bannerstyle.css('background-size', 'auto 100vh');
+    }
+    else if (Wwidth > Iwidth){
+        bannerstyle.css('background-size', '100vw');
+    }
+
+    console.log("image: Height: " + Iheight + ", Width: " + Iwidth + ".");
+    console.log("Widow: Height: " + Wheight + ", Width: " + Wwidth + ".");
+
 }

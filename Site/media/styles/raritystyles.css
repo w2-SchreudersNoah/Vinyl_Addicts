@@ -1,15 +1,8 @@
-body{
-    min-height: unset;
-}
 main {
     min-width: 85%;
-    min-height: unset;
 }
 main p{
     text-align: center;
-}
-footer{
-    position: fixed;
 }
 #checkRarity{
     display: block;
@@ -48,6 +41,7 @@ form#sellContact{
 @media only screen and (max-width: 768px){
     header nav{
         margin-left: 0;
+        float: unset;
     }
     #rarity{
         float: unset;
@@ -89,3 +83,4 @@ form#sellContact{
         width: 50%;
     }
 }
+

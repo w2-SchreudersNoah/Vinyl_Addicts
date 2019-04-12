@@ -2,8 +2,7 @@
     font-family: Arial;
 }
 main{
-    min-width: 85%;
-
+    min-width: 85%; 
 }
 .news-list{
     display: flex;
@@ -64,6 +63,10 @@ margin-bottom: 0px;
 }
 
 @media only screen and (max-width: 767px){
+    header nav{
+        margin-left: 0;
+        float: unset;
+    } 
     .searchbar{
         float: unset;
         margin-bottom: 10px;
@@ -94,6 +97,10 @@ margin-bottom: 0px;
 }
 
 @media only screen and (min-width: 767px) and (max-width: 1024px){
+    header nav{
+        margin-left: 0;
+        float: unset;
+    }
     .searchbar{
         float: unset;
         margin-bottom: 10px;

@@ -39,6 +39,7 @@ form{
 @media only screen and (max-width: 768px){
     header nav{
         margin-left: 0;
+        float: unset;
     }
     form {
         margin: 0;

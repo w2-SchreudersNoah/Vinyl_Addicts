@@ -1,42 +1,4 @@
-/* ========================================================================================================= */
 
-
-@media only screen and (max-width: 900px)  {
-    header nav{
-        font-size: 10px;
-    }
-}
-
-@media only screen and (max-width: 750px)  {
-    header nav{
-        margin-left: 100px !important;
-        width: calc(100% - 80px) !important;
-    }
-    div#Overzicht img#logo{
-        width: 50vw!important;
-    }
-}
-
-@media only screen and (max-width: 680px)  {
-    main{
-        margin: 340px;
-    }
-}
-
-@media only screen and (max-width: 450px)  {
-    header nav{
-
-    }
-}
-
-@media screen and (orientation:portrait) {
-    div.banner{
-        background-size: auto 100vh !important;
-    }
-}
-@media screen and (orientation:landscape) {
-
-}
 /* ========================================================================================================= */
 html, body, footer p{
     padding: 0px;
@@ -100,7 +62,10 @@ div.banner{
 
     background-image: url("../images/banners/banner_2.jpg");
     background-repeat: no-repeat;
-    background-size: 100vw;
+
+    /*background-size: 100vw;*/
+    /*background-size: auto 100vh;*/
+
     background-position: bottom center;
     background-position-Y: 60%;
 
@@ -139,7 +104,7 @@ main{
 
     width: calc(100% - 200px);
     min-height: Calc(100vh - 378px);
-    min-width: 500px;
+    min-width: 570px;
     overflow-x: fragments;
 
     padding: 10px 5px;
@@ -248,5 +213,37 @@ header nav a, header nav a:visited{
     color: black;
 
 }
+nav a:nth-child(2) {
+    width: calc((100% / 4) - (3px * 4));
+}
+
+/* ========================================================================================================= */
 
 
+@media only screen and (max-width: 900px)  {
+    header nav{
+        font-size: 10px;
+    }
+}
+
+@media only screen and (max-width: 750px)  {
+    header nav{
+        margin-left: 100px !important;
+        width: calc(100% - 80px) !important;
+    }
+    div#Overzicht img#logo{
+        width: 50vw!important;
+    }
+}
+
+@media only screen and (max-width: 680px)  {
+}
+
+
+@media screen and (orientation:portrait) {
+    div.banner{
+    }
+}
+@media screen and (orientation:landscape) {
+
+}

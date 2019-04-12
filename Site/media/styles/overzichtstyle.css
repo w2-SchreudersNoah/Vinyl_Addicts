@@ -20,6 +20,7 @@ div#Overzicht div#scroll_down{
     /*padding: 5px;*/
     text-align: center;
 }
+
 #scroll_down::before{
     content: "\f358";
     font-family: "Font Awesome 5 Free";
@@ -54,12 +55,12 @@ header nav {
     width: calc(75% - 195px);
 }
 a#branding{
-    position: sticky;
+    position: absolute;
     top: 0px;
+    left: 0px;
 
-    margin-top: -29px;
-
-    padding-top: 75px;
+    margin: 0px;
+    padding: 0px;
 
     z-index: 4;
 
@@ -69,16 +70,24 @@ a#branding img{
     height: calc(75px - 4px);
     border: solid 2px black;
 
-    margin-top: -25px;
+
 }
 header{
     position: sticky;
     top: 0px;
 
-    margin-top: -54px; /* header height - (header img border top/bottom) */
+    margin-top: 0px; /* header height - (header img border top/bottom) */
 }
-.filter a:hover{
+
+#ddlFilter{
+    display: block;
     font-size: 20px;
+    width: 100px;
+    top: 50px;
+    height: 34px;
+}
+
+.filter a:hover{
     font-weight: bold;
 
     text-decoration: underline;
@@ -106,7 +115,6 @@ header{
                                   supported by Chrome and Opera */
 }
 .filter{
-    height: 21px;
     background-color: #bebebe;
     border: 1px solid black;
     padding: 4px;
@@ -129,7 +137,7 @@ body main section:nth-child(odd) h2{
 body main section:nth-child(even) h2{
     background-color: #F6C90E;
 }
-main h2{
+main h2 {
     margin: 0px;
     margin-left: -4px;
 
@@ -137,10 +145,13 @@ main h2{
 
     position: sticky;
 
+    border-bottom: solid 1px black;
+
     z-index: 1;
 
     top: 50px;
 }
+
 section div {
     position: relative;
     float: left;
@@ -169,7 +180,9 @@ section div {
     border: solid 1px black;
 
     width: calc((100% / 3) - (16px * 3));
-    /*min-width: 130px;*/
+    min-width: 143px;
+    max-height: 450px;
+    min-height: 450px;
 }
 .item:nth-child(odd){
     background-color: #F6C90E;
@@ -205,4 +218,94 @@ section div {
     bottom: 0px;
 
     font-size: 20px;
+}
+
+
+/* ========================================================================================================= */
+
+
+@media only screen and (max-width: 940px)  {
+    main h2{
+        padding-top: 25px;
+    }
+    .filter{
+        height: 40px;
+        width: 70%;
+    }
+
+    .album_title{
+        font-size: 20px;
+    }
+    .album_year{
+        font-size: 15px;
+    }
+    .item{
+        width: calc((100% / 2) - (22px * 2));
+        height: 300px; min-height: 300px; max-height: 300px;
+    }
+
+    #filter{
+        display: none;
+    }
+    #ddlFilter{
+        display: block;
+    }
+}
+
+@media only screen and (max-width: 750px)  {
+}
+
+@media only screen and (max-width: 610px)  {
+    main{
+        /*
+        width: 100%; min-width: 100%; max-width: 100%;
+        margin: 0px;
+        -webkit-transform: translate(0px,0px);
+        -moz-transform: translate(0px,0px);
+        -ms-transform: translate(0px,0px);
+        -o-transform: translate(0px,0px);
+        transform: translate(0px,0px);
+        */
+   }
+   .filter{
+
+   }
+}
+
+
+@media only screen and (max-width: 500px)  {
+    .item{
+        width: calc((100% / 1) - (50px * 1));
+        height: 500px; min-height: 500px; max-height: 500px;
+    }
+    .item img{
+        width: 100%;
+        margin-left: 50%;
+        -webkit-transform: translate(-50%);
+        -moz-transform: translate(-50%);
+        -ms-transform: translate(-50%);
+        -o-transform: translate(-50%);
+        transform: translate(-50%);
+    }
+    .item .album_title{
+        font-size: 40px;
+    }
+    .item .album_artist{
+        font-size: 35px;
+    }
+    .item .album_year{
+        font-size: 40px;
+    }
+}
+
+@media only screen and (max-width: 450px)  {
+}
+
+@media screen and (orientation:portrait) {
+    div.banner {
+
+    }
+}
+@media screen and (orientation:landscape) {
+
 }

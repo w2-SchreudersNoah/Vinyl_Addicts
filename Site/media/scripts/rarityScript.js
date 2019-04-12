@@ -60,8 +60,8 @@ $(document).ready(function(){
        
         $("#rarityText").html(waarde + "<br><br>Vul <a href='#sellContact'>hier</a> het formulier in.");
         $("#sellForm").css("display", "block");
-        $("#subject").val('Verkopen ' + formResults[0]["value"] + ' LP.');
-        $("#bericht").val('\nArtiest: ' + formResults[0]["value"] + '\nLeeftijd LP: ' + formResults[1]["value"] + '\nCollectors editie: ' + collEdition + '\nZeldzaamheid: ' + waarde + '\n\n');
+        $("#subject").val('Verkopen ' + formResults[0]["value"] + ' lp.');
+        $("#bericht").val('\nArtiest: ' + formResults[0]["value"] + '\nLeeftijd lp: ' + formResults[1]["value"] + '\nCollectors editie: ' + collEdition + '\nZeldzaamheid: ' + waarde + '\n\n');
         return false;
     });
  });
